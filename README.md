@@ -48,7 +48,7 @@ metro-bundler bundle \
 --assets-dest dist \
 --manifest-output dist/base.manifest.json  \
 --platform ios  \
---dev false
+--dev false  \
 --use-stable-id true
 ```
 
@@ -61,6 +61,6 @@ metro-bundler bundle  \
 --assets-dest dist \
 --exclude dist/base.manifest.json   \
 --platform ios  \
---dev false
+--dev false  \
 --use-stable-id true
 ```
